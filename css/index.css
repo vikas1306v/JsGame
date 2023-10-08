@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* align-content: stretch; */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 4px;
+    z-index: 900;
+    height: 72px;
+    /* padding-right: 16px;
+    padding-left: 16px; */
+    background-color: rgba(233, 228, 228, 0.8);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e0e0;
+}
+.navbar_div{
+   
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    
+        margin-right: 100px;
+        width: 30vw;
+    
+}
+.navbar_div_item{
+    padding: 18px;
+    text-decoration: none;
+}
+.top::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to right,#241901,#aa164f,#7112ed,#1DA1F2);
+}
+html {
+    font-family: MonoLisa,Monaco,dejavu sans mono,lucida console,monospace;
+    font-size: 16px;
+    line-height: 1.9rem;
+    color: #363636;
+}
+.home_div{
+    
+        margin-top: 144px;
+        padding-right: 45px;
+        padding-left: 45px;
+     
+    
+}
+
+.home_one_para{
+    width: 75%;    
+    margin:30px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 800;
+    color: #363636;
+    
+}
+.home_two_para{
+  
+    margin: 10px;
+    width: 75%;
+    padding: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #363636;
+}
+.social_links
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+.social_li{
+    padding:10px;
+}
+hr{
+
+   margin:15px;
+}
+.base{
+    border-style: solid;
+    border-color: hsl(0, 10%, 78%);
+    border-radius: 5px;
+    background-color: #f1f3f5;
+    display: flex;
+    flex-direction: row;
+}
+.img_class{
+  height:90px;
+   
+}
